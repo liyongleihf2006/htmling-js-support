@@ -1,0 +1,23 @@
+{
+  "name": "htmling-js-support",
+  "version": "1.0.0",
+  "description": "htmling不支持js获取动态生成的数据，一个非常简单的扩展策略（not plugin）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyongleihf2006/htmling-js-support.git"
+  },
+  "author": "liyonglei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liyongleihf2006/htmling-js-support/issues"
+  },
+  "homepage": "https://github.com/liyongleihf2006/htmling-js-support#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "htmling": "0.0.7"
+  }
+}

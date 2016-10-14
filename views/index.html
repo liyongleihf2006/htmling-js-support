@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script>
+        var users={{users}};
+        alert(JSON.stringify(users));
+    </script>
+    <span>{{author}}</span>
+    <ul>
+        <template repeat="{{user in users}}">
+            <li>{{user.name}}</li>
+        </template>
+
+    </ul>
+</body>
+</html>
